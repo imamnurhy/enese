@@ -15,12 +15,18 @@ body {
     padding: 0;
   }
   
-  .layar-dalam {
-    width: 1000px;
+.layar-dalam {
+    max-width: 100%;
     margin: auto;
 }
 .layar-penuh{
     width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 
 /* Navigation */
@@ -199,6 +205,12 @@ section.abuabu{
     background-color: #f5f6f6;
 }
 
+section.pricing-layout{
+    background-color: #f5f6f6;
+    margin-bottom: 500px;
+}
+
+
 .support,
 .tim,
 .blog{
@@ -336,8 +348,8 @@ section.quote .layar-dalam p{
   }
   
   .nav-padding{
-    margin-top: -100px;
-    width: 1200px;
+    /* margin-top: -100px; */
+    /* width: 1200px; */
     margin-left: auto;
     margin-right: auto;
   }
