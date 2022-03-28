@@ -91,6 +91,10 @@ nav ul li a:hover{
         display: contents;
         width: 80%;    
     }
+    .bisnis{
+        display: contents;
+        width: 80%;    
+    }
     }
 /* End Navigation */
 
@@ -328,7 +332,14 @@ section.quote .layar-dalam p{
       border-radius: 10px 10px;
       background-color: whitesmoke;
   }
-  
+
+  .bisnis {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px 10px;
+    background-color: whitesmoke;
+}
   .paket-bisnis {
     display: inline-block;
     float: left;
