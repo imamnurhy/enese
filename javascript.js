@@ -45,3 +45,18 @@ $(document).ready(function(){
         }
     });
 });
+
+
+// Connect to API
+// Create a request variable and assign a new XMLHttpRequest object to it.
+var request = new XMLHttpRequest()
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET', 'https://documenter.getpostman.com/view/5385898/UVyn3yy5', true)
+
+request.onload = function () {
+  // Begin accessing JSON data here
+}
+
+// Send request
+request.send()
