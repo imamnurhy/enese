@@ -29,6 +29,7 @@ body {
     padding: 10px;
 }
 
+
 /* Navigation */
 nav{
     z-index: 100;
@@ -211,7 +212,7 @@ section.abuabu{
 
 section.pricing-layout{
     background-color: #f5f6f6;
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
 }
 
 
