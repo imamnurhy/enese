@@ -18,7 +18,7 @@ body {
 .layar-dalam {
     max-width: 100%;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 .layar-penuh{
     width: 100%;
@@ -287,7 +287,7 @@ section.quote .layar-dalam p{
 }
 
 .blog .area .text article{
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .blog .area .text article h4{
