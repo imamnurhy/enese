@@ -18,7 +18,7 @@ body {
 .layar-dalam {
     max-width: 100%;
     margin: auto;
-    /* text-align: center; */
+    text-align: center;
 }
 .layar-penuh{
     width: 100%;
