@@ -256,6 +256,7 @@ section.quote {
     font-size: 20px;
     font-style: italic;
     padding: 100px;
+    border-radius: 0px;
 }
 
 section.quote .layar-dalam p{
@@ -279,7 +280,7 @@ section.quote .layar-dalam p{
 }
 
 .blog .area .gambar {
-    /* border-radius: 5px 0px 0px 5px; */
+    border-radius: 5px 0px 0px 5px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -306,7 +307,7 @@ section.quote .layar-dalam p{
     font-family: 'Montserrat', sans-serif;;
     font-size: 16px;
     line-height: 1.5;
-    /* border-radius: 15px; */
+    border-radius: 15px;
   }
 
   .choice{
@@ -576,6 +577,7 @@ ul {
 .footer {
   background-color: #24262b;
   padding: 70px 0;
+  border-radius: 0px;
 }
 
 .footer-col {
