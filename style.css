@@ -236,6 +236,10 @@ section.pricing-layout{
     font-weight: bold;
 }
 
+.install{
+  padding-left: 2rem;
+}
+
 .support img{
     width: 50px;
 }
