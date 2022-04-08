@@ -236,8 +236,11 @@ section.pricing-layout{
     font-weight: bold;
 }
 
-.install{
-  padding-left: 2rem;
+
+.installasi{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px;
 }
 
 .support img{
