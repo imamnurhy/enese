@@ -111,13 +111,13 @@ nav ul li a:hover{
 /* End Navigation */
 
 /* Header */
-header{
+/* header{
     position: relative;
     height: 65vh;
     width: 100%;
     overflow: hidden;
     z-index: 2;
-}
+} */
 
 header video{
     position: absolute;
@@ -324,7 +324,7 @@ section.quote .layar-dalam p{
     font-family: 'Montserrat', sans-serif;;
     font-size: 16px;
     line-height: 1.5;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
 
   .choice{
@@ -378,6 +378,7 @@ section.quote .layar-dalam p{
       padding: 0;
       -webkit-transition: 0.3s;
       transition: 0.3s;
+      border-radius: 15px;
   }
   
   .nav-padding{
@@ -408,6 +409,7 @@ section.quote .layar-dalam p{
     color: #555555;
     background: #fff;
     padding: 15px;
+    border-radius: 15px;
   }
   
   .pricing-plan--highlighted {
@@ -452,7 +454,7 @@ section.quote .layar-dalam p{
     font-weight: bold;
     color: #fff;
     background: linear-gradient(-45deg, #f403d1, #64b5f6);
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px;
     font-size: 20px;
   }
   .price {
@@ -516,6 +518,7 @@ section.quote .layar-dalam p{
     text-decoration: none;
     font-size: 18px;
     border: 1px solid #009578;
+    border-radius: 15px;
   }
   
   .button:hover {
