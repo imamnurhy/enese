@@ -523,6 +523,7 @@ section.quote .layar-dalam p{
     font-size: 18px;
     border: 1px solid #009578;
     border-radius: 15px;
+    margin: 20px;
   }
   
   .button:hover {
@@ -579,6 +580,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 * {
+  border-radius: 10px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -715,7 +717,7 @@ ul {
 
     }
     .blog .area{
-        display: block;
+        display: inline-block;
     }
     
     .blog div.area div{
