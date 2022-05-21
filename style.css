@@ -536,8 +536,6 @@ section.quote .layar-dalam p{
     text-align: center;
   }
 /* End Pricing List */
-
-
 /* Footer */
 /* footer{
     padding: 50px 0px 50px 0px;
@@ -655,6 +653,15 @@ ul {
 .footer-col ul li a:hover{
     color: #fff;
     padding-left: 10px  ;
+}
+
+.copyright{
+  font-size: 12px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  margin-left: 35px;
 }
 
 
