@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap");
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -44,7 +45,7 @@ body {
 /* Navigation */
 nav{
     z-index: 100;
-    color: #fff;
+    color: black;
     text-align: center;
     position: fixed;
     border-bottom: 1px solid #b1b1b1;
@@ -53,25 +54,31 @@ nav{
     transition: background-color 0.5s ease;
 }
 
-nav.putih{
-    background-color: #fff;
+.navigation-atas{
+  background-color: white;
 }
 
-nav .logo{
-    float: left;
-    position: relative;
-    line-height: 55px;
-    text-align: center;
+.logo{
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 20px;
 }
 
-nav .logo img{
-    width: 120px;
+.logo:hover{
+  color: grey;
 }
+
 
 nav .menu{
     float: right;
     height: 60px;
     max-width: 600px;
+    color: #000;
+    
 }
 
 nav .menu ul{
@@ -79,12 +86,14 @@ nav .menu ul{
     margin: 0;
     padding: 0;
     display: flex;
+    color: #000;
 }
 
 nav .menu ul li{
     list-style-type: none;
     float: left;
     line-height: 60px;
+    color: #000;
 }
 
 nav ul li a{
@@ -92,10 +101,12 @@ nav ul li a{
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
+    color: #000;
 }
 
 nav ul li a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: grey;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -164,7 +175,8 @@ header .overlay{
 
 .tombol-menu .garis{
     height: 3px;
-    background-color: #fff;
+    background-color:grey;
+    color: grey;
 
 }
 
@@ -206,9 +218,7 @@ nav.putih .tombol-menu .garis{
     background-color: #333;
 }
 
-nav .logo img.hitam{
-    display: none;
-}
+
 
 nav.putih ul li a{
     color: #333;
@@ -325,7 +335,7 @@ section.quote .layar-dalam p{
 /* Pricing List */
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     /* border-radius: 15px; */
@@ -535,6 +545,7 @@ section.quote .layar-dalam p{
   #beneift{
     text-align: center;
   }
+  
 /* End Pricing List */
 /* Footer */
 /* footer{
@@ -571,7 +582,7 @@ footer .layar-dalam .copyright{
     margin: auto;
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 
 body {
   line-height: 1.5;
@@ -666,6 +677,12 @@ ul {
 
 
 @media(max-width:767px){
+  .carousel-item {
+    width: 90%;
+  }
+  .layar-dalam{
+    width: 90%;
+}
     .footer-col{
         width: 25%;
         margin-bottom: 30px;
@@ -673,6 +690,12 @@ ul {
 }
 
 @media(max-width:574px){
+  .carousel-item {
+    width: 90%;
+  }
+  .layar-dalam{
+    width: 90%;
+}
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -680,6 +703,12 @@ ul {
 }
 
 @media(max-width:365px){
+  .carousel-item {
+    width: 90%;
+  }
+  .layar-dalam{
+    width: 90%;
+}
     .footer-col{
         width: 75%;
         margin-bottom: 30px;
@@ -687,6 +716,9 @@ ul {
 }
 
 @media(max-width:280px){
+  .layar-dalam{
+    width: 90%;
+}
     .footer-col{
         width: 100%;
         margin-bottom: 30px;
@@ -696,9 +728,18 @@ ul {
 
 /* Responsive */
 @media screen and (max-width: 991.98px) {
+
+  .carousel-item {
+    width: 90%;
+  }
     .layar-dalam{
         width: 90%;
     }
+    .logo{
+      padding-top: 4%;
+      position: relative;
+    }
+    
     nav .menu ul{
         display: none;
         margin-top: 60px;
