@@ -29,22 +29,18 @@ $(window).resize(function(){
     klikMenu();
 });
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navigation-gulir").style.top = "0";
+  } else {
+    document.getElementById("navigation-gulir").style.top = "-85px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 //efek scroll
-$(document).ready(function(){
-    var scroll_pos = 0;
-    $(document).scroll(function(){
-        scroll_pos = $(this).scrollTop();
-        if(scroll_pos > 0){
-            $("nav").addClass("putih");
-            $("nav img.hitam").show();
-            $("nav img.putih").hide();
-        }else {
-            $("nav").removeClass("putih");
-            $("nav img.hitam").hide();
-            $("nav img.putih").show();
-        }
-    });
-});
+
 
 
 // Connect to API
