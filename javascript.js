@@ -2,26 +2,42 @@
 let tombolMenu = $(".tombol-menu");
 let menu = $("nav .menu ul");
 
-function klikMenu(){
-    tombolMenu.click(function(){
-        menu.toggle();
-    });
-    menu.click(function(){
-        menu.toggle();
-    });
+// function klikMenu(){
+//     tombolMenu.click(function(){
+//         menu.toggle();
+//     });
+//     menu.click(function(){
+//         menu.toggle();
+//     });
+// }
+
+// $(document).ready(function(){
+//     var width= $(window).width();
+//     if (width < 990){
+//         klikMenu();
+//     }
+// })
+
+// function myFunction() {
+//   var x = document.getElementById("myLinks");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
-
-$(document).ready(function(){
-    var width= $(window).width();
-    if (width < 990){
-        klikMenu();
-    }
-})
-
-//check lebar
+// //check lebar
 $(window).resize(function(){
     var width = $(window).width();
-    if (width >990){
+    if (width >890){
         menu.css("display","block");
     } else {
         menu.css("display","none");
