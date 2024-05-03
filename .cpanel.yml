@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/berb3479/public_html/nse.rtl
+    - /bin/cp -r * $DEPLOYPATH
