@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/berb3479/public_html/nse.rtl
+    - export DEPLOYPATH=/home/berb3479/public_html/nsering.id
     - /bin/cp -r * $DEPLOYPATH
